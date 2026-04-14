@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Env
+.env
+venv/
+
+# Logs
+*.log
+vm_debug.log
+
+# Outputs / Reports
+reports/
+sandbox_report_*
+*.json
+
+# Samples / binaries
+tasks/
+samples/
+*.exe
+*.dll
+*.pdf
+
+# IDE
+.vscode/
+.idea/

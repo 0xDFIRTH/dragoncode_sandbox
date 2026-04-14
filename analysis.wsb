@@ -1,0 +1,19 @@
+<Configuration>
+  <VGpu>Enable</VGpu>
+  <Networking>Enable</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\Users\Salah\Downloads\dragoncode_sandbox</HostFolder>
+      <SandboxFolder>C:\Project</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\Users\Salah\AppData\Local\Programs\Python\Python312</HostFolder>
+      <SandboxFolder>C:\PythonHost</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>cmd /k "set PYTHONPATH=C:\Project &amp;&amp; C:\PythonHost\python.exe -m dragoncode_sandbox.agent"</Command>
+  </LogonCommand>
+</Configuration>
