@@ -1,0 +1,6 @@
+{
+  "timeout_sec": 15,
+  "enable_memory": true,
+  "enable_registry": true,
+  "block_network": false
+}
